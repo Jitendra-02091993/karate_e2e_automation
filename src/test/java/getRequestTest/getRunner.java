@@ -7,6 +7,6 @@ public class getRunner {
 
     @Test
     public Karate runTest() {
-        return Karate.run("getRequest").tags("@JSONFormat").relativeTo(getClass());
+        return Karate.run("validateJSONResponseFromFile").tags("@FileJSON").relativeTo(getClass());
     }
 }
