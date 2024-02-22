@@ -1,8 +1,6 @@
 Feature: to execute Java Script function
 
-@Script
-Scenario: Execute JavaScript Function with and without Parameters
-    * def a = 10
-    * def b = 20
-    * def c = function {return a + b}
-    Then print c
+    @Script
+  Scenario: Execute JavaScript Function with and without Parameters
+    * def c = function(a,b){return a + b;}
+    Then print c(3,5)

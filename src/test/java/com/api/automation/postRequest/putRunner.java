@@ -7,7 +7,7 @@ public class putRunner {
 
     @Test
     public Karate putRequestRunner() {
-        return Karate.run("createJob").tags("@POSTJOB").relativeTo(getClass());
+        return Karate.run("createJob").tags("@embedded").relativeTo(getClass());
     }
 
 }

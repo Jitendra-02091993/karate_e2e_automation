@@ -1,0 +1,22 @@
+{
+	"jobId": 6,
+	"jobTitle": "Tester Engineering",
+	"jobDescription": "To develop flutter application",
+	"experience": [
+		"Google",
+		"Apple",
+		"Mobile Iron",
+		"Appium"
+	],
+	"project": [
+		{
+			"projectName": "E-Commerce App",
+			"technology": [
+				"Kotlin",
+				"SQL Lite",
+				"Gradle",
+				"D++"
+			]
+		}
+	]
+}
