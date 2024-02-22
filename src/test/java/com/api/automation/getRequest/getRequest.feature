@@ -2,11 +2,10 @@ Feature: To test that data is getting fetch from the DB using GET request in JSO
 
   Background: Set the base url
     Given url "http://localhost:9191"
+    And path "/normal/webapi/all"
 
     @JSONFormat
   Scenario:To get all the data from app in JSON format
-    Given path "/normal/webapi/all"
-    # Given url "http://localhost:9191/normal/webapi/all"
     And param jobId = 1
     And header Accept = "application/json"
     When method get

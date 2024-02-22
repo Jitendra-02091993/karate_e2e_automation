@@ -2212,3 +2212,1801 @@ org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: J:\E2EKar
 - <js>.:program(Unnamed:1)
 
 classpath:getRequestTest/validateJSONResponseFromFile.feature:13
+13:18:40.533 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:18:44.693 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:18:47.140 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all?jobId=1
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:18:47.320 [main] DEBUG com.intuit.karate - response time in milliseconds: 175
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 07:48:47 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+13:18:47.459 [main] ERROR com.intuit.karate - classpath:getRequestTest/validateJSONResponseFromFile.feature:13
+* def actualResponse = read("../jsonResponse.json")
+js failed:
+>>>>
+01: read("../jsonResponse.json")
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: J:\E2EKarateAPI\karate_e2e_automation\target\test-classes\getRequestTest\..\jsonResponse.json (The system cannot find the file specified)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:120)
+- <js>.:program(Unnamed:1)
+
+classpath:getRequestTest/validateJSONResponseFromFile.feature:13
+13:20:47.774 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:20:57.728 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:21:00.187 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all?jobId=1
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:21:00.493 [main] DEBUG com.intuit.karate - response time in milliseconds: 302
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 07:51:00 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+13:21:00.893 [main] ERROR com.intuit.karate - classpath:getRequestTest/validateJSONResponseFromFile.feature:13
+* def actualResponse = read("../jsonResponse.json")
+js failed:
+>>>>
+01: read("../jsonResponse.json")
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: J:\E2EKarateAPI\karate_e2e_automation\target\test-classes\getRequestTest\..\jsonResponse.json (The system cannot find the file specified)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:120)
+- <js>.:program(Unnamed:1)
+
+classpath:getRequestTest/validateJSONResponseFromFile.feature:13
+13:23:19.877 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:23:21.810 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:23:22.836 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all?jobId=1
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:23:22.958 [main] DEBUG com.intuit.karate - response time in milliseconds: 118
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 07:53:22 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+13:23:23.048 [main] ERROR com.intuit.karate - classpath:com/api/getRequest/validateJSONResponseFromFile.feature:13
+* def actualResponse = read("../jsonResponse.json")
+js failed:
+>>>>
+01: read("../jsonResponse.json")
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: J:\E2EKarateAPI\karate_e2e_automation\target\test-classes\com\api\getRequest\..\jsonResponse.json (The system cannot find the file specified)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:120)
+- <js>.:program(Unnamed:1)
+
+classpath:com/api/getRequest/validateJSONResponseFromFile.feature:13
+13:25:34.355 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:25:36.586 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:25:37.602 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all?jobId=1
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:25:39.335 [main] DEBUG com.intuit.karate - response time in milliseconds: 1728
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 07:55:39 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+13:25:39.429 [main] ERROR com.intuit.karate - classpath:com/api/getRequest/validateJSONResponseFromFile.feature:13
+* def actualResponse = read("classpath:com.api.data/jsonResponse.json")
+js failed:
+>>>>
+01: read("classpath:com.api.data/jsonResponse.json")
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: com.api.data/jsonResponse.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:120)
+- <js>.:program(Unnamed:1)
+
+classpath:com/api/getRequest/validateJSONResponseFromFile.feature:13
+13:28:30.030 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:28:41.619 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:28:48.248 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all?jobId=1
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:28:48.505 [main] DEBUG com.intuit.karate - response time in milliseconds: 221
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 07:58:48 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+13:28:49.184 [main] ERROR com.intuit.karate - classpath:com/api/getRequest/validateJSONResponseFromFile.feature:13
+* def actualResponse = read("../../jsonResponse.json")
+js failed:
+>>>>
+01: read("../../jsonResponse.json")
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: J:\E2EKarateAPI\karate_e2e_automation\target\test-classes\com\api\getRequest\..\..\jsonResponse.json (The system cannot find the file specified)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:120)
+- <js>.:program(Unnamed:1)
+
+classpath:com/api/getRequest/validateJSONResponseFromFile.feature:13
+13:29:37.130 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:29:39.363 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:29:40.346 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all?jobId=1
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:29:40.464 [main] DEBUG com.intuit.karate - response time in milliseconds: 112
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 07:59:40 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+13:29:40.542 [main] ERROR com.intuit.karate - classpath:com/api/getRequest/validateJSONResponseFromFile.feature:13
+* def actualResponse = read("jsonResponse.json")
+js failed:
+>>>>
+01: read("jsonResponse.json")
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: J:\E2EKarateAPI\karate_e2e_automation\target\test-classes\com\api\getRequest\jsonResponse.json (The system cannot find the file specified)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:120)
+- <js>.:program(Unnamed:1)
+
+classpath:com/api/getRequest/validateJSONResponseFromFile.feature:13
+13:31:48.727 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:31:50.640 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:31:51.493 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all?jobId=1
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:31:51.590 [main] DEBUG com.intuit.karate - response time in milliseconds: 91
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 08:01:51 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+13:31:51.810 [main] ERROR com.intuit.karate - classpath:com/api/getRequest/validateJSONResponseFromFile.feature:13
+* def actualResponse = read("jsonResponse.json")
+js failed:
+>>>>
+01: read("jsonResponse.json")
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: J:\E2EKarateAPI\karate_e2e_automation\target\test-classes\com\api\getRequest\jsonResponse.json (The system cannot find the file specified)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:120)
+- <js>.:program(Unnamed:1)
+
+classpath:com/api/getRequest/validateJSONResponseFromFile.feature:13
+13:36:26.498 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:36:28.508 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:36:29.178 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all?jobId=1
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:36:29.362 [main] DEBUG com.intuit.karate - response time in milliseconds: 184
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 08:06:29 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+13:36:29.466 [main] ERROR com.intuit.karate - classpath:com/api/getRequest/validateJSONResponseFromFile.feature:13
+* def actualResponse = read("jsonResponse.json")
+js failed:
+>>>>
+01: read("jsonResponse.json")
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: J:\E2EKarateAPI\karate_e2e_automation\target\test-classes\com\api\getRequest\jsonResponse.json (The system cannot find the file specified)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:120)
+- <js>.:program(Unnamed:1)
+
+classpath:com/api/getRequest/validateJSONResponseFromFile.feature:13
+13:38:34.800 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:38:36.726 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:38:37.303 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all?jobId=1
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:38:37.348 [main] DEBUG com.intuit.karate - response time in milliseconds: 45
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 08:08:37 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+13:38:37.476 [main] ERROR com.intuit.karate - classpath:com/api/getRequest/validateJSONResponseFromFile.feature:13
+* def actualResponse = read("../jsonResponse.json")
+js failed:
+>>>>
+01: read("../jsonResponse.json")
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: J:\E2EKarateAPI\karate_e2e_automation\target\test-classes\com\api\getRequest\..\jsonResponse.json (The system cannot find the file specified)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:120)
+- <js>.:program(Unnamed:1)
+
+classpath:com/api/getRequest/validateJSONResponseFromFile.feature:13
+13:41:57.200 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:41:59.181 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:42:00.371 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all?jobId=1
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.12)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:42:00.458 [main] DEBUG com.intuit.karate - response time in milliseconds: 78
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 08:12:00 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+13:42:00.573 [main] INFO  com.intuit.karate - [print] Files response are:------- [
+  {
+    "jobId": 1,
+    "jobTitle": "Software Engg",
+    "jobDescription": "To develop andriod application",
+    "experience": [
+      "Google",
+      "Apple",
+      "Mobile Iron"
+    ],
+    "project": [
+      {
+        "projectName": "Movie App",
+        "technology": [
+          "Kotlin",
+          "SQL Lite",
+          "Gradle"
+        ]
+      }
+    ]
+  }
+]
+ 
+13:42:23.820 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:42:25.731 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:42:26.444 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all?jobId=1
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:42:26.566 [main] DEBUG com.intuit.karate - response time in milliseconds: 119
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 08:12:26 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+13:42:26.664 [main] INFO  com.intuit.karate - [print] Files response are:------- [
+  {
+    "jobId": 1,
+    "jobTitle": "Software Engg",
+    "jobDescription": "To develop andriod application",
+    "experience": [
+      "Google",
+      "Apple",
+      "Mobile Iron"
+    ],
+    "project": [
+      {
+        "projectName": "Movie App",
+        "technology": [
+          "Kotlin",
+          "SQL Lite",
+          "Gradle"
+        ]
+      }
+    ]
+  }
+]
+ 
+13:45:51.475 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:45:53.239 [main] ERROR c.intuit.karate.core.FeatureRuntime - classpath:com/api/automation/getRequest/validateJSONResponseFromFile.feature[1:19] dynamic expression evaluation failed: read("../"+data_file)
+13:47:25.237 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:47:27.034 [main] ERROR c.intuit.karate.core.FeatureRuntime - classpath:com/api/automation/getRequest/validateJSONResponseFromFile.feature[1:19] dynamic expression evaluation failed: read("classpath:com/api/automation/"+data_file)
+13:48:13.645 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: com/api/automation/getRequest/validateJSONResponseFromFile.feature - mismatched input '<EOF>' expecting TABLE_ROW
+13:48:31.132 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:48:33.206 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:48:33.375 [main] ERROR com.intuit.karate - classpath:com/api/automation/getRequest/validateJSONResponseFromFile.feature:10
+And param jobId = <jobId>
+js failed:
+>>>>
+01: <jobId>
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:0 Expected an operand but found <
+<jobId>
+^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioEngine.param(ScenarioEngine.java:394)
+- com.intuit.karate.ScenarioActions.param(ScenarioActions.java:88)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+classpath:com/api/automation/getRequest/validateJSONResponseFromFile.feature:10
+13:50:09.647 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:50:11.492 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:50:11.591 [main] ERROR com.intuit.karate - classpath:com/api/automation/getRequest/validateJSONResponseFromFile.feature:10
+And param jobId = array[0].<jobId>
+js failed:
+>>>>
+01: array[0].<jobId>
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:9 Expected ident but found <
+array[0].<jobId>
+         ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:139)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:135)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1190)
+- com.intuit.karate.core.ScenarioEngine.param(ScenarioEngine.java:394)
+- com.intuit.karate.ScenarioActions.param(ScenarioActions.java:88)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+classpath:com/api/automation/getRequest/validateJSONResponseFromFile.feature:10
+13:50:24.586 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:50:26.394 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:50:27.023 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all?jobId=1
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:50:27.172 [main] DEBUG com.intuit.karate - response time in milliseconds: 141
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 08:20:27 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+13:50:27.296 [main] INFO  com.intuit.karate - [print] Files response are:------- jsonResponse.json 
+13:51:27.140 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:51:29.038 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:51:29.646 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all?jobId=1
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:51:29.766 [main] DEBUG com.intuit.karate - response time in milliseconds: 115
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 08:21:29 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+13:51:29.881 [main] INFO  com.intuit.karate - [print] Files response are:------- [
+  {
+    "jobId": 1,
+    "jobTitle": "Software Engg",
+    "jobDescription": "To develop andriod application",
+    "experience": [
+      "Google",
+      "Apple",
+      "Mobile Iron"
+    ],
+    "project": [
+      {
+        "projectName": "Movie App",
+        "technology": [
+          "Kotlin",
+          "SQL Lite",
+          "Gradle"
+        ]
+      }
+    ]
+  }
+]
+ 
+13:51:48.781 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:51:50.626 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:51:51.211 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all?jobId=1
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:51:51.317 [main] DEBUG com.intuit.karate - response time in milliseconds: 101
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 08:21:51 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+13:51:51.434 [main] INFO  com.intuit.karate - [print] Files response are:------- [
+  {
+    "jobId": 1,
+    "jobTitle": "Software Engg",
+    "jobDescription": "To develop andriod application",
+    "experience": [
+      "Google",
+      "Apple",
+      "Mobile Iron"
+    ],
+    "project": [
+      {
+        "projectName": "Movie App",
+        "technology": [
+          "Kotlin",
+          "SQL Lite",
+          "Gradle"
+        ]
+      }
+    ]
+  }
+]
+ 
+15:33:42.845 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:33:47.551 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:33:50.643 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all?jobId=1
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:33:50.938 [main] DEBUG com.intuit.karate - response time in milliseconds: 254
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 10:03:50 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+15:33:51.324 [main] INFO  com.intuit.karate - [print] Files response are:------- [
+  {
+    "jobId": 1,
+    "jobTitle": "Software Engg",
+    "jobDescription": "To develop andriod application",
+    "experience": [
+      "Google",
+      "Apple",
+      "Mobile Iron"
+    ],
+    "project": [
+      {
+        "projectName": "Movie App",
+        "technology": [
+          "Kotlin",
+          "SQL Lite",
+          "Gradle"
+        ]
+      }
+    ]
+  }
+]
+ 
+15:44:34.429 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:44:36.404 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:44:37.228 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:44:37.464 [main] DEBUG com.intuit.karate - response time in milliseconds: 232
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 10:14:37 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+15:44:37.638 [main] INFO  com.intuit.karate - [print] Files response are:------- [
+  {
+    "jobId": 1,
+    "jobTitle": "Software Engg",
+    "jobDescription": "To develop andriod application",
+    "experience": [
+      "Google",
+      "Apple",
+      "Mobile Iron"
+    ],
+    "project": [
+      {
+        "projectName": "Movie App",
+        "technology": [
+          "Kotlin",
+          "SQL Lite",
+          "Gradle"
+        ]
+      }
+    ]
+  }
+]
+ 
+16:15:01.251 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:15:03.148 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:15:04.382 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 241
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:15:10.512 [main] DEBUG com.intuit.karate - response time in milliseconds: 6118
+1 < 405
+1 < Allow: GET
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 10:45:10 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"timestamp":"2024-02-21T10:45:10.215+0000","status":405,"error":"Method Not Allowed","message":"Request method 'POST' not supported","path":"/normal/webapi/all"}
+
+16:15:10.541 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/createJob.feature:12
+Then status 200
+status code was: 405, expected: 200, response time in milliseconds: 6118, url: http://localhost:9191/normal/webapi/all, response: 
+{"timestamp":"2024-02-21T10:45:10.215+0000","status":405,"error":"Method Not Allowed","message":"Request method 'POST' not supported","path":"/normal/webapi/all"}
+classpath:com/api/automation/postRequest/createJob.feature:12
+16:17:04.104 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:17:06.202 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:17:07.260 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 241
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:17:07.497 [main] DEBUG com.intuit.karate - response time in milliseconds: 235
+1 < 405
+1 < Allow: GET
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 10:47:07 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"timestamp":"2024-02-21T10:47:07.435+0000","status":405,"error":"Method Not Allowed","message":"Request method 'POST' not supported","path":"/normal/webapi/all"}
+
+16:17:07.535 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/createJob.feature:12
+Then status 200
+status code was: 405, expected: 200, response time in milliseconds: 235, url: http://localhost:9191/normal/webapi/all, response: 
+{"timestamp":"2024-02-21T10:47:07.435+0000","status":405,"error":"Method Not Allowed","message":"Request method 'POST' not supported","path":"/normal/webapi/all"}
+classpath:com/api/automation/postRequest/createJob.feature:12
+16:19:30.276 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:19:32.175 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:19:32.851 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:19:32.942 [main] DEBUG com.intuit.karate - response time in milliseconds: 85
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 10:49:32 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+16:19:33.115 [main] INFO  com.intuit.karate - [print] Files response are:------- [
+  {
+    "jobId": 1,
+    "jobTitle": "Software Engg",
+    "jobDescription": "To develop andriod application",
+    "experience": [
+      "Google",
+      "Apple",
+      "Mobile Iron"
+    ],
+    "project": [
+      {
+        "projectName": "Movie App",
+        "technology": [
+          "Kotlin",
+          "SQL Lite",
+          "Gradle"
+        ]
+      }
+    ]
+  }
+]
+ 
+16:20:05.264 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:20:07.113 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:20:07.879 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 245
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":3,"jobTitle":"Software Engineering","jobDescription":"To develop flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:20:08.024 [main] DEBUG com.intuit.karate - response time in milliseconds: 129
+1 < 405
+1 < Allow: GET
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 10:50:07 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"timestamp":"2024-02-21T10:50:07.972+0000","status":405,"error":"Method Not Allowed","message":"Request method 'POST' not supported","path":"/normal/webapi/all"}
+
+16:20:08.051 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/createJob.feature:12
+Then status 201
+status code was: 405, expected: 201, response time in milliseconds: 129, url: http://localhost:9191/normal/webapi/all, response: 
+{"timestamp":"2024-02-21T10:50:07.972+0000","status":405,"error":"Method Not Allowed","message":"Request method 'POST' not supported","path":"/normal/webapi/all"}
+classpath:com/api/automation/postRequest/createJob.feature:12
+16:24:44.727 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:24:46.579 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:24:47.335 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 241
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:24:47.545 [main] DEBUG com.intuit.karate - response time in milliseconds: 195
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 10:54:47 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:24:47.570 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/createJob.feature:12
+Then status 200
+status code was: 201, expected: 200, response time in milliseconds: 195, url: http://localhost:9191/normal/webapi/add, response: 
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+classpath:com/api/automation/postRequest/createJob.feature:12
+16:25:41.230 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:25:43.123 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:25:43.840 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 241
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:25:43.970 [main] DEBUG com.intuit.karate - response time in milliseconds: 119
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 10:55:43 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:25:44.017 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/createJob.feature:13
+And match response.data[*].jobId == 3
+match failed: EQUALS
+  $ | actual path does not exist (STRING:NUMBER)
+  '#notpresent'
+  3
+
+classpath:com/api/automation/postRequest/createJob.feature:13
+16:26:21.168 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:26:22.954 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:26:23.752 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 241
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:26:23.871 [main] DEBUG com.intuit.karate - response time in milliseconds: 110
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 10:56:23 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:26:23.915 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/createJob.feature:13
+And match response.data[*].jobId == "3"
+match failed: EQUALS
+  $ | actual path does not exist (STRING:STRING)
+  '#notpresent'
+  '3'
+
+classpath:com/api/automation/postRequest/createJob.feature:13
+16:26:55.084 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:26:56.886 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:26:57.607 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 241
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:26:57.717 [main] DEBUG com.intuit.karate - response time in milliseconds: 102
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 10:56:57 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:26:57.778 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/createJob.feature:13
+And match response[*].jobId == 3
+match failed: EQUALS
+  $ | data types don't match (LIST:NUMBER)
+  []
+  3
+
+classpath:com/api/automation/postRequest/createJob.feature:13
+16:28:08.938 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:28:10.806 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:28:11.576 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 241
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:28:11.739 [main] DEBUG com.intuit.karate - response time in milliseconds: 156
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 10:58:11 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:28:11.781 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/createJob.feature:13
+And match response[*] contains {"jobId":3}
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - {"jobId":3} (LIST:MAP)
+  [3,"Quality Engineering","To test flutter application",["Google","Apple","Mobile Iron","Appium"],[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]]
+  {"jobId":3}
+
+    $[4] | data types don't match (LIST:MAP)
+    [{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]
+    {"jobId":3}
+
+    $[3] | data types don't match (LIST:MAP)
+    ["Google","Apple","Mobile Iron","Appium"]
+    {"jobId":3}
+
+    $[2] | data types don't match (STRING:MAP)
+    'To test flutter application'
+    {"jobId":3}
+
+    $[1] | data types don't match (STRING:MAP)
+    'Quality Engineering'
+    {"jobId":3}
+
+    $[0] | data types don't match (NUMBER:MAP)
+    3
+    {"jobId":3}
+
+classpath:com/api/automation/postRequest/createJob.feature:13
+16:29:14.860 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:29:16.753 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:29:17.383 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+16:29:17.498 [main] DEBUG com.intuit.karate - response time in milliseconds: 109
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 10:59:17 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+16:29:17.622 [main] INFO  com.intuit.karate - [print] Files response are:------- [
+  {
+    "jobId": 1,
+    "jobTitle": "Software Engg",
+    "jobDescription": "To develop andriod application",
+    "experience": [
+      "Google",
+      "Apple",
+      "Mobile Iron"
+    ],
+    "project": [
+      {
+        "projectName": "Movie App",
+        "technology": [
+          "Kotlin",
+          "SQL Lite",
+          "Gradle"
+        ]
+      }
+    ]
+  }
+]
+ 
+16:45:14.403 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:45:16.292 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:45:17.086 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 241
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:45:17.267 [main] DEBUG com.intuit.karate - response time in milliseconds: 166
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 11:15:17 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:45:17.304 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/createJob.feature:13
+And match response[*] contains {"jobId":1}
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - {"jobId":1} (LIST:MAP)
+  [3,"Quality Engineering","To test flutter application",["Google","Apple","Mobile Iron","Appium"],[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]]
+  {"jobId":1}
+
+    $[4] | data types don't match (LIST:MAP)
+    [{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]
+    {"jobId":1}
+
+    $[3] | data types don't match (LIST:MAP)
+    ["Google","Apple","Mobile Iron","Appium"]
+    {"jobId":1}
+
+    $[2] | data types don't match (STRING:MAP)
+    'To test flutter application'
+    {"jobId":1}
+
+    $[1] | data types don't match (STRING:MAP)
+    'Quality Engineering'
+    {"jobId":1}
+
+    $[0] | data types don't match (NUMBER:MAP)
+    3
+    {"jobId":1}
+
+classpath:com/api/automation/postRequest/createJob.feature:13
+16:45:50.269 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:45:52.183 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:45:53.258 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 241
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:45:53.382 [main] DEBUG com.intuit.karate - response time in milliseconds: 118
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 11:15:53 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:45:53.423 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/createJob.feature:13
+And match response[*] contains {"jobId":1}
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - {"jobId":1} (LIST:MAP)
+  [3,"Quality Engineering","To test flutter application",["Google","Apple","Mobile Iron","Appium"],[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]]
+  {"jobId":1}
+
+    $[4] | data types don't match (LIST:MAP)
+    [{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]
+    {"jobId":1}
+
+    $[3] | data types don't match (LIST:MAP)
+    ["Google","Apple","Mobile Iron","Appium"]
+    {"jobId":1}
+
+    $[2] | data types don't match (STRING:MAP)
+    'To test flutter application'
+    {"jobId":1}
+
+    $[1] | data types don't match (STRING:MAP)
+    'Quality Engineering'
+    {"jobId":1}
+
+    $[0] | data types don't match (NUMBER:MAP)
+    3
+    {"jobId":1}
+
+classpath:com/api/automation/postRequest/createJob.feature:13
+16:46:26.182 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:46:27.968 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:46:28.787 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 241
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:46:28.961 [main] DEBUG com.intuit.karate - response time in milliseconds: 167
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 11:16:28 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:46:29.013 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/createJob.feature:13
+And match response[*] contains {"jobId":3}
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - {"jobId":3} (LIST:MAP)
+  [3,"Quality Engineering","To test flutter application",["Google","Apple","Mobile Iron","Appium"],[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]]
+  {"jobId":3}
+
+    $[4] | data types don't match (LIST:MAP)
+    [{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]
+    {"jobId":3}
+
+    $[3] | data types don't match (LIST:MAP)
+    ["Google","Apple","Mobile Iron","Appium"]
+    {"jobId":3}
+
+    $[2] | data types don't match (STRING:MAP)
+    'To test flutter application'
+    {"jobId":3}
+
+    $[1] | data types don't match (STRING:MAP)
+    'Quality Engineering'
+    {"jobId":3}
+
+    $[0] | data types don't match (NUMBER:MAP)
+    3
+    {"jobId":3}
+
+classpath:com/api/automation/postRequest/createJob.feature:13
+16:46:59.453 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:47:01.264 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:47:01.947 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 241
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:47:02.048 [main] DEBUG com.intuit.karate - response time in milliseconds: 88
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 11:17:02 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:47:49.019 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:47:50.845 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:47:51.591 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 241
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:47:51.687 [main] DEBUG com.intuit.karate - response time in milliseconds: 87
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 11:17:51 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:47:51.745 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/createJob.feature:13
+And match response[0].jobId == 3
+match failed: EQUALS
+  $ | actual path does not exist (STRING:NUMBER)
+  '#notpresent'
+  3
+
+classpath:com/api/automation/postRequest/createJob.feature:13
+16:48:44.587 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:48:46.417 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:48:47.178 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 241
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:48:47.236 [main] DEBUG com.intuit.karate - response time in milliseconds: 56
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 11:18:47 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:48:47.289 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/createJob.feature:13
+And match response[0].jobId == 1
+match failed: EQUALS
+  $ | actual path does not exist (STRING:NUMBER)
+  '#notpresent'
+  1
+
+classpath:com/api/automation/postRequest/createJob.feature:13
+16:49:44.980 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:49:46.803 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:49:47.595 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 241
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:49:47.660 [main] DEBUG com.intuit.karate - response time in milliseconds: 60
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 11:19:47 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:49:47.727 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/createJob.feature:13
+And match response[*] contains {"jobTitle":"Quality Engineering"}
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array does not contain expected item - {"jobTitle":"Quality Engineering"} (LIST:MAP)
+  [3,"Quality Engineering","To test flutter application",["Google","Apple","Mobile Iron","Appium"],[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]]
+  {"jobTitle":"Quality Engineering"}
+
+    $[4] | data types don't match (LIST:MAP)
+    [{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]
+    {"jobTitle":"Quality Engineering"}
+
+    $[3] | data types don't match (LIST:MAP)
+    ["Google","Apple","Mobile Iron","Appium"]
+    {"jobTitle":"Quality Engineering"}
+
+    $[2] | data types don't match (STRING:MAP)
+    'To test flutter application'
+    {"jobTitle":"Quality Engineering"}
+
+    $[1] | data types don't match (STRING:MAP)
+    'Quality Engineering'
+    {"jobTitle":"Quality Engineering"}
+
+    $[0] | data types don't match (NUMBER:MAP)
+    3
+    {"jobTitle":"Quality Engineering"}
+
+classpath:com/api/automation/postRequest/createJob.feature:13
+16:50:21.738 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:50:23.534 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:50:24.435 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 241
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:50:24.533 [main] DEBUG com.intuit.karate - response time in milliseconds: 98
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 11:20:24 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:50:24.571 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/createJob.feature:13
+And match response[*] contains deep {"jobTitle":"Quality Engineering"}
+match failed: CONTAINS_DEEP
+  $ | actual does not contain expected | actual array does not contain expected item - {"jobTitle":"Quality Engineering"} (LIST:MAP)
+  [3,"Quality Engineering","To test flutter application",["Google","Apple","Mobile Iron","Appium"],[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]]
+  {"jobTitle":"Quality Engineering"}
+
+    $[4] | actual does not contain expected | actual array does not contain expected item - {"jobTitle":"Quality Engineering"} (LIST:MAP)
+    [{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]
+    {"jobTitle":"Quality Engineering"}
+
+      $[4][0] | actual does not contain expected | actual does not contain key - 'jobTitle' (MAP:MAP)
+      {"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}
+      {"jobTitle":"Quality Engineering"}
+
+        $[3] | actual does not contain expected | actual array does not contain expected item - {"jobTitle":"Quality Engineering"} (LIST:MAP)
+        ["Google","Apple","Mobile Iron","Appium"]
+        {"jobTitle":"Quality Engineering"}
+
+          $[3][3] | data types don't match (STRING:MAP)
+          'Appium'
+          {"jobTitle":"Quality Engineering"}
+
+          $[3][2] | data types don't match (STRING:MAP)
+          'Mobile Iron'
+          {"jobTitle":"Quality Engineering"}
+
+          $[3][1] | data types don't match (STRING:MAP)
+          'Apple'
+          {"jobTitle":"Quality Engineering"}
+
+          $[3][0] | data types don't match (STRING:MAP)
+          'Google'
+          {"jobTitle":"Quality Engineering"}
+
+            $[2] | data types don't match (STRING:MAP)
+            'To test flutter application'
+            {"jobTitle":"Quality Engineering"}
+
+            $[1] | data types don't match (STRING:MAP)
+            'Quality Engineering'
+            {"jobTitle":"Quality Engineering"}
+
+            $[0] | data types don't match (NUMBER:MAP)
+            3
+            {"jobTitle":"Quality Engineering"}
+
+classpath:com/api/automation/postRequest/createJob.feature:13
+16:51:34.326 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:51:36.220 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:51:36.964 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 241
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:51:37.070 [main] DEBUG com.intuit.karate - response time in milliseconds: 99
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 11:21:37 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:51:37.119 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/createJob.feature:13
+And match response[*].jobId contains {3}
+net.minidev.json.parser.ParseException: Unexpected End Of File position 2: null
+classpath:com/api/automation/postRequest/createJob.feature:13
+16:52:29.553 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:52:31.399 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:52:32.094 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 241
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:52:32.257 [main] DEBUG com.intuit.karate - response time in milliseconds: 157
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 11:22:32 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:52:32.280 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/createJob.feature:13
+And match response[*].jobId contains {"Quality Engineering"}
+net.minidev.json.parser.ParseException: Unexpected character (}) at position 21.
+classpath:com/api/automation/postRequest/createJob.feature:13
+16:54:33.157 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+16:54:34.997 [main] INFO  com.intuit.karate - karate.env system property was: null 
+16:54:35.753 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 241
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:54:35.878 [main] DEBUG com.intuit.karate - response time in milliseconds: 119
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 11:24:35 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}
+
+16:54:35.927 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/createJob.feature:13
+And match response[*].jobId contains {"jobTitle": "Quality Engineering"}
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array length is less than expected - 0:1 (LIST:MAP)
+  []
+  {"jobTitle":"Quality Engineering"}
+
+
+classpath:com/api/automation/postRequest/createJob.feature:13
+17:11:09.215 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:11:11.044 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:11:11.796 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 243
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":6,"jobTitle":"Tester Engineering","jobDescription":"To develop flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","D++"]}]}
+
+17:11:11.957 [main] DEBUG com.intuit.karate - response time in milliseconds: 153
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 11:41:11 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":6,"jobTitle":"Tester Engineering","jobDescription":"To develop flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","D++"]}]}
+
+17:11:11.991 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/createJob.feature:22
+And match response[*].jobId contains {"jobTitle": "Tester Engineering"}
+match failed: CONTAINS
+  $ | actual does not contain expected | actual array length is less than expected - 0:1 (LIST:MAP)
+  []
+  {"jobTitle":"Tester Engineering"}
+
+
+classpath:com/api/automation/postRequest/createJob.feature:22
+17:11:51.451 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+17:11:53.238 [main] INFO  com.intuit.karate - karate.env system property was: null 
+17:11:53.981 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 243
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":6,"jobTitle":"Tester Engineering","jobDescription":"To develop flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","D++"]}]}
+
+17:11:54.107 [main] DEBUG com.intuit.karate - response time in milliseconds: 111
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 21 Feb 2024 11:41:54 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":6,"jobTitle":"Tester Engineering","jobDescription":"To develop flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","D++"]}]}
+
+23:57:27.503 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:57:31.682 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:57:38.446 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:57:38.446 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:57:44.660 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:57:44.660 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+23:58:14.888 [main] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 35975 milliseconds for url: http://localhost:9191/normal/webapi/all
+23:58:14.889 [main] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 35976 milliseconds for url: http://localhost:9191/normal/webapi/all
+23:58:14.893 [main] ERROR com.intuit.karate - classpath:com/api/automation/getRequest/validateJSONResponseFromFile.feature:12
+When method get
+http call failed after 35975 milliseconds for url: http://localhost:9191/normal/webapi/all
+classpath:com/api/automation/getRequest/validateJSONResponseFromFile.feature:12
+23:58:14.893 [main] ERROR com.intuit.karate - classpath:com/api/automation/getRequest/validateJSONResponseFromFile.feature:12
+When method get
+http call failed after 35976 milliseconds for url: http://localhost:9191/normal/webapi/all
+classpath:com/api/automation/getRequest/validateJSONResponseFromFile.feature:12
+00:00:09.057 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+00:00:10.780 [main] INFO  com.intuit.karate - karate.env system property was: null 
+00:00:11.281 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+00:00:41.333 [main] ERROR com.intuit.karate - java.net.SocketTimeoutException: Read timed out, http call failed after 30488 milliseconds for url: http://localhost:9191/normal/webapi/all
+00:00:41.338 [main] ERROR com.intuit.karate - classpath:com/api/automation/getRequest/validateJSONResponseFromFile.feature:12
+When method get
+http call failed after 30488 milliseconds for url: http://localhost:9191/normal/webapi/all
+classpath:com/api/automation/getRequest/validateJSONResponseFromFile.feature:12
+09:50:35.978 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+09:50:38.502 [main] INFO  com.intuit.karate - karate.env system property was: null 
+09:50:39.550 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9191/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+09:50:39.608 [main] DEBUG com.intuit.karate - response time in milliseconds: 55
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Thu, 22 Feb 2024 04:20:39 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+
+09:50:39.766 [main] INFO  com.intuit.karate - [print] Files response are:------- [
+  {
+    "jobId": 1,
+    "jobTitle": "Software Engg",
+    "jobDescription": "To develop andriod application",
+    "experience": [
+      "Google",
+      "Apple",
+      "Mobile Iron"
+    ],
+    "project": [
+      {
+        "projectName": "Movie App",
+        "technology": [
+          "Kotlin",
+          "SQL Lite",
+          "Gradle"
+        ]
+      }
+    ]
+  }
+]
+ 
