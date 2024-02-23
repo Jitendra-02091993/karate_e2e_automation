@@ -4998,3 +4998,40 @@ IsInMemory: true
   "message": "File createJobData.json uploaded at C:\\Users\\jiten\\AppData\\Local\\Temp\\\\"
 }
  
+23:28:57.680 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:29:03.771 [main] INFO  com.intuit.karate - karate.env system property was: null 
+23:29:08.002 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9191/normal/webapi/upload
+1 > Content-Type: multipart/form-data; boundary=ccb84729676a60ce
+1 > Content-Length: 198
+1 > Host: localhost:9191
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+Mixed: content-disposition: form-data; name="file"; filename="dummy.txt"
+content-type: text/plain; charset=UTF-8
+content-length: 24
+Completed: true
+IsInMemory: true
+
+
+23:29:08.128 [main] DEBUG com.intuit.karate - response time in milliseconds: 123
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Thu, 22 Feb 2024 17:59:08 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"message":"File dummy.txt uploaded at C:\\Users\\jiten\\AppData\\Local\\Temp\\\\"}
+
+23:29:08.204 [main] INFO  com.intuit.karate - [print] {
+  "message": "File dummy.txt uploaded at C:\\Users\\jiten\\AppData\\Local\\Temp\\\\"
+}
+ 

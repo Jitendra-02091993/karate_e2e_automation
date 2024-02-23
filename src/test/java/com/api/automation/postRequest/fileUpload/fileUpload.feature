@@ -7,7 +7,8 @@ Feature: To upload the file using karate framework
     @TC_01
   Scenario: To uplod the file in the test application
     #location of file, name of file, content-type
-    And multipart file file = {read:"dummy.txt", filename: "dummy.txt", Content-Type: "multipart/form-data"}
+    * def fileLocation = "dummy.txt"
+    And multipart file file = {read:"#(fileLocation)", filename: "dummy.txt", Content-Type: "multipart/form-data"}
     When method post
     Then status 200
     And print response

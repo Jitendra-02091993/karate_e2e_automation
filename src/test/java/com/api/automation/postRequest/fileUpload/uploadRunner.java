@@ -7,7 +7,7 @@ public class uploadRunner {
 
     @Test
     public Karate putRequestRunner() {
-        return Karate.run("fileUpload").tags("@TC_02").relativeTo(getClass());
+        return Karate.run("fileUpload").tags("@TC_01").relativeTo(getClass());
     }
 
 }
