@@ -51,6 +51,12 @@
                 <version>${maven.surefire.version}</version>
                 <configuration>
                     <argLine>-Dfile.encoding=UTF-8</argLine>
+                    <includes>
+                    <include>**/ParallelBuilderWithCucumberReport.java</include>
+                    </includes>
+                    <rerunFailingTestsCount>2</rerunFailingTestsCount>
+                    <systemProperties><karate.env>${karate.profile}</karate.env>
+                    </systemProperties>
                 </configuration>
             </plugin>          
         </plugins>        
