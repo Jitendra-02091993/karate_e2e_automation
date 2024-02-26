@@ -21,7 +21,13 @@
             <artifactId>karate-junit5</artifactId>
             <version>${karate.version}</version>
             <scope>test</scope>
-        </dependency>		
+        </dependency>	
+
+        <dependency>
+    <groupId>net.masterthought</groupId>
+    <artifactId>cucumber-reporting</artifactId>
+    <version>5.4.0</version>
+</dependency>	
     </dependencies>
 
     <build>
@@ -44,20 +50,7 @@
                     <target>${java.version}</target>
                     <compilerArgument>-Werror</compilerArgument>
                 </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>${maven.surefire.version}</version>
-                <configuration>
-                    <includes>
-                    <include>**/ParallelBuilderWithCucumberReport.java</include>
-                    </includes>
-                    <rerunFailingTestsCount>2</rerunFailingTestsCount>
-                    <systemProperties><karate.env>${karate.profile}</karate.env>
-                    </systemProperties>
-                </configuration>
-            </plugin>          
+            </plugin>        
         </plugins>        
     </build>       
     

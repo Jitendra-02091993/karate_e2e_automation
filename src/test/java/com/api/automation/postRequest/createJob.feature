@@ -3,7 +3,7 @@ Feature: To create a book in library
   Background: Set the base url
     Given url "http://localhost:9191"
     When path "/normal/webapi/add"
-
+    
     # @POSTJOB
   Scenario: Create a data using POST request and vaidate the response
     And request  {"jobId":3,"jobTitle":"Quality Engineering","jobDescription":"To test flutter application","experience":["Google","Apple","Mobile Iron","Appium"],"project":[{"projectName":"E-Commerce App","technology":["Kotlin","SQL Lite","Gradle","C++"]}]}

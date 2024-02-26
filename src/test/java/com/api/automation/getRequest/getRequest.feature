@@ -29,7 +29,6 @@ Feature: To test that data is getting fetch from the DB using GET request in JSO
 
     @XMLFormat
   Scenario:To get all the data from app in XML format
-    Given path "/normal/webapi/all"
     # Given url "http://localhost:9191/normal/webapi/all"
     And header Accept = "application/xml"
     When method get
