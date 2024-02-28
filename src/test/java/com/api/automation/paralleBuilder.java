@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import com.intuit.karate.Results;
 import com.intuit.karate.Runner.Builder;
-public class paralleBuilder {
+public class paralleBuilder { 
 
     @Test
     public void executeKarateTest() {

@@ -17,6 +17,14 @@
 				"Gradle",
 				"D++"
 			]
+		},
+		{
+			"projectName": "Banking Domain",
+			"technology": [
+				"Rupees",
+				"Thai",
+				"Currency"
+			]
 		}
 	]
 }
