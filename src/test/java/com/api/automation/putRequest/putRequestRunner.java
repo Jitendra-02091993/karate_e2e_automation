@@ -7,6 +7,6 @@ public class putRequestRunner {
 
     @Test
     public Karate putRequestRunner() {
-        return Karate.run("putRequest").tags("@PUTReadVariables").relativeTo(getClass());
+        return Karate.run("putRequest").tags("@Helper").relativeTo(getClass());
     }
 }

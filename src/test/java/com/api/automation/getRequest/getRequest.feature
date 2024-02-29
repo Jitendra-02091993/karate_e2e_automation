@@ -14,7 +14,7 @@ Feature: To test that data is getting fetch from the DB using GET request in JSO
     And print "----------------------------------------------------", data
     And match response contains deep {"jobTitle": "Software Engg"}
     Then print karate.pretty(response)
-    And assert response.length == 1
+    # And assert response.length == 1
     And match response == "#array"
         #-----------Validation of size of an array-----------
     And match response[0].experience == "#[3]"

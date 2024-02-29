@@ -5,7 +5,7 @@ Feature:Performing schema Validation from basic to complex schema using embedded
     
 
     @TC_01_Schema
-  Scenario: To fetch the data using POST method and validate the Schema
+  Scenario: To create the data using POST method and validate the Schema
     And path "/normal/webapi/add"
     * def body = read("data/schemaData.json")
     And request body
