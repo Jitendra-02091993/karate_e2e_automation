@@ -41,6 +41,8 @@ Feature: Delete the obsolete data which is not required
     Then status 404
     And match response.message == "Failed to find job with id="+ints+", jobTitle="+title+""
     And print response
+    * def ja = "My name is Jitendra"
+
 
     @TC_03
   Scenario: Demo the Chaining request

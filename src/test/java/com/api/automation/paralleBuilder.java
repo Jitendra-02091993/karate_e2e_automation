@@ -11,6 +11,9 @@ public class paralleBuilder {
     public void executeKarateTest() {
         Builder runner = new Builder<>();
         runner.path("classpath:com/api/automation");
+        runner.tags("@POSTJOB,@PUTReadVariables");
+        
+//       -----------  in order to extract the result from execution results use Result class--------------
         Results result = runner.parallel(5);
         System.out.println("Total Features count==>" + result.getFeaturesTotal());
         System.out.println("Total Scenario count==>" + result.getScenariosTotal());
